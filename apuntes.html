@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aurora Vázquez Robles">
+    <meta name="Apuntes" content="Tabla con apuntes de html ">
+
+    <style>
+        table,th,td{
+            border: 1px  solid burlywood;
+        }
+    </style>
+    <title>Tablas de referencia html</title>
+</head>
+<body>
+    <table>
+        <caption> <h1> Etiquetas HTML -mi referencia</h1></caption>
+        <colgroup>
+            <col style="width: auto;">
+            <col span="2" style="width: auto;">
+        </colgroup>
+        <thead>
+            <!--Columnas-->
+            <tr>
+                <th scope="col">Etiqueta</th>
+                <th scope="col">Para qué sirve</th>
+                <th scope="col"> Ejemplo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!---Ejemplo 1-->
+            <tr>
+                <td>title</td> <td>Título de la página en el navegador</td> 
+                <td><pre> &lt;title&gt;Paginita web 2&lt;/title&gt;</pre></td>
+            <!---Ejemplo 1-->
+            <tr>
+                <td>body</td> <td>Cuerpo de la página: todo lo que se va a ver</td> 
+                <td>
+<pre> 
+&lt;body&gt; 
+    &lt;p&gt;Esta es mi página&lt;/p&gt; 
+&lt;/body&gt; 
+</pre>
+                </td>
+            </tr>
+            <!---Ejemplo 2-->
+            <tr>
+                <td>h1</td> <td>Encabezado 1 que da jerarquía</td> 
+                <td><pre> &lt;Título de nivel h1&gt;</pre></td>
+            </tr>
+            <!---Ejemplo 3-->
+            <tr>
+                <td>p</td> <td>Insterar párrafo</td> 
+                <td><pre> &lt;párrafo empieza en una línea nueva&gt; </pre></td>
+            </tr>
+            <!---Ejemplo 4-->
+            <tr>
+                <td>pre</td> <td>Muestra el texto tal cual se pone en el html</td> 
+                <td> 
+<pre>
+&lt;pre&gt&lt;code&gt; 
+#include &lt; stdio.h&gt;
+int main ()
+{
+    printf("Hola CW!");
+    return 0:
+}
+&lt;/code&gt;&lt;/pre&gt;
+</pre>
+                </td>
+            </tr>
+            <!---Ejemplo 5-->
+            <tr>
+                <td>ul</td> <td>Lista desordenada o por viñetas</td> 
+                <td>
+<pre>&lt;ul&gt;
+    &lt;li&gt;Elemento 1&lt;/li&gt;
+    &lt;li&gt; Elemento 2&lt;/li&gt;
+    &lt;li&gt;Elemento 3&lt;/li&gt;
+&lt;/ul&gt;</pre>
+                </td>
+            </tr>
+
+            <!---Ejemplo 6-->
+            <tr>
+                <td>ol</td> <td>Lista ordenada con alfabeto</td> 
+                <td>
+<pre>&lt;ol style="list-style-type: lower-alpha;">&gt;
+        &lt;li&gt;Elemento 1&lt;/li&gt;
+        &lt;li&gt; Elemento 2&lt;/li&gt;
+        &lt;li&gt;Elemento 3&lt;/li&gt;
+&lt;/ol&gt;</pre>
+               </td>
+
+            </tr>
+
+            
+            
+        </tbody>
+
+
+
+    </table>
+    
+</body>
+</html>
