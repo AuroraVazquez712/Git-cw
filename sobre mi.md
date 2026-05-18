@@ -2,4 +2,5 @@
 **Alumna**:Aurora 
 **Color Favorito**:Azul
 **Nombres**:Aurora Betshabé
-**me gusta que me digan**:Auro
+**Me gusta que me digan**:Auro
+**comida favorita**:Chilaquiles verdes
