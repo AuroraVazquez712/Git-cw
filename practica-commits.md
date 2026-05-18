@@ -59,12 +59,12 @@ Algo sobre mí : Quiero trabajar para Microsoft
 
 | Comando | ¿Qué hace? |
 |---------|------------|
-| `git init` | |
-| `git status` | |
-| `git add .` | |
-| `git commit -m "..."` | |
-| `git log --oneline` | |
-| `git push` | |
+| `git init` |inicializa el nuevo repo |
+| `git status` | Te muestra en qué estado se encuentran los archivos|
+| `git add .` |Después de realizar cambios, es como añadir el archivo para despúes hacer commit |
+| `git commit -m "..."` |Una vez que se puso git add se termina de subir y lo nombras según el tipo de cambio realizado |
+| `git log --oneline` |Historial de los últimos cambios |
+| `git push` |Subir de tu computadora a la nube después de realizar commits |
 
 ---
 
