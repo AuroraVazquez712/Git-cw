@@ -13,7 +13,7 @@ Edita → `git add practica-commits.md` → `git commit -m "..."`
 ```
 Nombre     : Aurora Betshabé Vázquez Robles 
 GitHub     : AuroraVazquez712
-Algo sobre mí : Me guta mucho bailar 
+Algo sobre mí : Quiero trabajar para Microsoft
 ```
 
 ---
@@ -23,9 +23,11 @@ Algo sobre mí : Me guta mucho bailar
 **Qué hacer:** Agrega al menos tres cosas que sabes hacer (no tienen que ser de programación).  
 **Commit:** `feat(habilidades): agrega lista de habilidades`
 
-- 
+- Bailar
 
----
+--- Leer braille
+
+--- Cocinar
 
 ## Nivel 3 · Corrige los errores
 
@@ -33,7 +35,7 @@ Algo sobre mí : Me guta mucho bailar
 **Commit:** `fix(convenciones): corrige errores en descripción de Git`
 
 > Git es un sistema de control de versiones creado en 2005 por Linus Torvalds
-> para reemplazar a SubVersion, que era de código cerrado y dejó de darse gratis al proyecto Linux.
+> para reemplazar a BitKeeper, que era de código cerrado y dejó de darse gratis al proyecto Linux.
 > Cada commit guarda una fotografía de todos los archivos del repositorio en ese momento,
 > identificada con un hash MD5 único. Para subir cambios al servidor usamos `git pull`.
 
