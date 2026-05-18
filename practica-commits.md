@@ -25,9 +25,9 @@ Algo sobre mí : Quiero trabajar para Microsoft
 
 - Bailar
 
---- Leer braille
+- Leer braille
 
---- Cocinar
+- Cocinar
 
 ## Nivel 3 · Corrige los errores
 
