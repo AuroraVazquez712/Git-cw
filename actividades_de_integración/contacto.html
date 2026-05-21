@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aurora Vázquez Robles">
+    <meta name="contacto" content="Forms de registro ">   
+    
+    <title>Forms</title>
+</head>
+<body>
+    <!---------------------Encabezado--------------------->
+    <header>
+        <nav> 
+        <h1> <i>Sistema de inscripciones Web: Inscripción </i></h1>
+        <nav id="menu">
+            <a href="migrar-divs.html">Principal</a>
+            <br>
+            <a href="index.html">Principal</a>
+            <br>
+            <a href="resultados.html">Ver registros</a>
+            <br>
+            <a href="#forms">Formulario</a>
+            <br>
+            <a href="#ubicación">Ubicación</a></li>
+            <br>
+            <a href="#contacto">Contacto</a></li>
+        </nav>
+    </header>
+    <!------------------------Cuerpo-------------------------->
+    <main>
+        <section id="forms">
+            <hr>
+            <h2>Formulario de registro</h2>´
+            <form>
+                <fieldset>
+                    <legend><strong>Datos personales</strong> </legend>
+                    <br>
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre"
+                            name="nombre" required maxlength="10">
+                    <br>
+                    <br>
+                    <label for="correo">Correo: </label>
+                    <input type="email" id="correo"
+                            name="correo" required>
+                    <br>
+                    <br>
+                    <label for="num">Número de teléfono:</label>
+                    <input type="tel" pattern="[0-9]{10}"
+                            name="num" required>
+                    <br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <br>
+                    <label for="asunto">Asunto:</label>
+                    <select name="asunto" required>
+                            <option value="inscribir">Inscripción
+                            <option value="baja" selected>Darse de baja
+                    </select>
+                    <br>
+                    <br>
+                    <label for="comentario">Algo que nos quieras decir:</label>
+                    <textarea minlength="10"
+                                maxlength="500"
+                                placeholder="Escrie aquí.."
+                                required>
+                    </textarea>
+                </fieldset>
+                <br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Reiniciar</button>
+            </form>
+        </section>
+    </main>
+
+    <!----------------------Pie de página-->
+    <footer>
+        <hr>
+        <address>
+            <h4 id="ubicación">Ubicación</h4>
+            <p>Calle Corina 3, 04100 Coyoacán, Ciudad de México</p>
+            <h4 id="contacto">Contacto</h4>
+            <a href="mailto:324308734@alumno.enp.unam.mx">324308734@alumno.enp.unam.mx</a>
+            <h4>Página Oficial de Prepa 6</h4>
+            <a href="https://www.prepa6.unam.mx/ENP6/_P6/"
+            target="_blank" rel="noopener noreferrer">Externo: Prepa 6</a>
+            <hr>
+            <p><a href="#menu">Regresar al menu de navegación</a> </p>
+        </address>
+    </footer>
+</body>
+</html>
