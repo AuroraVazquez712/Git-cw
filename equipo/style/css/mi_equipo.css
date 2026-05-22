@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family: 'Title';
+    src: url(../fonts/Title.otf);
+}
+@font-face {
+    font-family: 'Text';
+    src: url(../fonts/Namex.ttf);
+}
+@font-face {
+    font-family: 'Encabezadp';
+    src: url(../fonts/KGPerfectPenmanship.ttf);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #193304;
+    margin: 0;
+    padding: 20px;
+}
+
+#paginita{
+    background-color: #CADEBA;
+    border-radius: 2%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#tabla{
+    width:100%;
+    height:900px;;
+
+}
+h1{
+    
+    font-family: 'Title';
+    font-size: 130px;
+    text-align: center;
+    text-shadow: 2px 4px 3px #5c853a;
+}
+
+caption{
+    font-size: 350%;
+    font-family: 'Title';
+    text-align: left;
+    text-shadow: 2px 4px 3px #5c853a;
+}
+
+thead{
+    background-color: #7AA956;
+    font-size: 230%;
+    font-family: 'Text';
+}
+table{
+    margin-left: 10%;
+}
+th{
+    border: 3px solid #486B2E;
+}
+td{
+    border: 3px solid #486B2E;
+    background-color: #E4EFDC;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    font-size: 230%;
+    width: 20vmax;     
+    font-family:'Text';
+    text-align: center;
+
+}
+.auro:hover{
+    background-color: rgb(29, 9, 117);
+    color: aliceblue;
+}
+
+.frida:hover{
+    background-color: #f35ac0;
+    color:rgb(88, 9, 55)
+}
+.diego:hover{
+    background-color: rgb(124, 196, 255);
+    color:blue;
+}
+img{
+    max-width: 45%;
+    height: auto;
+    margin-left: 60%;
+    margin-top: 2%;
+}
+figcaption{
+    font-family: 'Text';
+    font-size: 40px;
+    color: #7AA956;
+    margin-top: 80;
+}
+
